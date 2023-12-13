@@ -15,14 +15,14 @@ import java.util.List;
 @Controller
 @RequestMapping("param")
 public class ParamController {
-    
+
     //直接接收
-    //  /param/data?name=root&age=18
-    //  形参列表,填写对应名称的参数即可!  请求参数名 = 形参参数名即可!
-    //  1. 名称相同  2.可以不传递 不报错
+    //形参列表填写对应的参数名      请求参数名 = 形参参数名
+    //问题: 1.请求参数和形参参数命名必须相同
+    //     2.可以不传递参数,也不报错,在程序中可能还要判断是否为空
     @RequestMapping("data")
     @ResponseBody
-    public String data(String name,int age){//http://localhost:8080/param/data?name=jack&age=18
+    public String data(String name,int age){
         System.out.println("name = " + name + ", age = " + age);
         return "name = " + name + ", age = " + age;
     }
