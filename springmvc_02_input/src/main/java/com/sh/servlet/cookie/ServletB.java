@@ -13,7 +13,7 @@ import java.io.IOException;
  * @Author: SH
  * @Date: 2023/12/13 20:24
  */
-@WebServlet("/servletB")
+//@WebServlet("/servletB")
 public class ServletB extends HttpServlet {
 
     @Override

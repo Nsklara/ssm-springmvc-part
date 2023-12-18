@@ -14,22 +14,22 @@ import java.io.IOException;
  * @Author: SH
  * @Date: 2023/12/13 20:20
  */
-@WebServlet("/servletA")
+//@WebServlet("/servletA")
 public class ServletA extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //创建cookie
-        Cookie cookie = new Cookie("cookie1","value1");
+        Cookie cookie1 = new Cookie("cookie1","value1");
         Cookie cookie2 = new Cookie("cookie2","value2");
 
         //设置cookie的持久化时间,单位:秒
-        cookie.setMaxAge(300);
+        cookie1.setMaxAge(300);
 
         //设置cookie的提交路径,只有访问设置的路径下的资源才会携带该cookie
-        cookie.setPath("/servletB");
+        cookie1.setPath("/servletB");
 
         //将cookie放入response
-        resp.addCookie(cookie);
+        resp.addCookie(cookie1);
         resp.addCookie(cookie2);
 
     }

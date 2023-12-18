@@ -14,7 +14,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 @EnableWebMvc   //给handlerAdapter配置了json转换器
                 //并且添加了 RequestMappingHandlerMapping和RequestMappingHandlerAdapter
 @Configuration
-@ComponentScan("com.sh")
+@ComponentScan("com.sh.header")
 public class MvcConfig02 {
     
     
