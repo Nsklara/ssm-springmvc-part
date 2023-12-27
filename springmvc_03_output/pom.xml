@@ -7,7 +7,7 @@
     <artifactId>ssm-springmvc-part</artifactId>  
     <version>1.0-SNAPSHOT</version> 
   </parent>  
-  <artifactId>spring-01-baes-quick</artifactId>  
+  <artifactId>springmvc_03_output</artifactId>  
   <packaging>war</packaging>
   <properties> 
     <maven.compiler.source>17</maven.compiler.source>  

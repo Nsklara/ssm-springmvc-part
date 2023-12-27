@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/spring-01-baes-quick/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-01-baes-quick/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-01-baes-quick/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc-01-baes-quick/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_02_input/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_02_input/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_03_output/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_03_output/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_04_restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_04_restful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_05_error_Interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_05_error_Interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web_cookie/src/main/java" charset="UTF-8" />

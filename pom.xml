@@ -9,8 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-01-baes-quick</module>
+        <module>springmvc-01-baes-quick</module>
         <module>springmvc_02_input</module>
+        <module>springmvc_03_output</module>
+        <module>springmvc_04_restful</module>
+        <module>springmvc_05_error_Interceptor</module>
     </modules>
 
     <properties>
@@ -40,6 +43,7 @@
             <version>6.0.13</version>
         </dependency>
 
+        <!--json处理的依赖-->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -51,6 +55,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.10.1</version>
+        </dependency>
+
+        <!-- jsp依赖-->
+        <dependency>
+            <groupId>jakarta.servlet.jsp.jstl</groupId>
+            <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+            <version>3.0.0</version>
         </dependency>
     </dependencies>
 

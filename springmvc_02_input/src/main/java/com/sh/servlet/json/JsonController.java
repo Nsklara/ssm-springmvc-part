@@ -1,4 +1,4 @@
-package com.sh.json;
+package com.sh.servlet.json;
 
 import com.sh.entity.Person;
 import org.springframework.stereotype.Controller;
