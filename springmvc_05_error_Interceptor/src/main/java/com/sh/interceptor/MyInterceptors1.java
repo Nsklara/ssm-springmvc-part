@@ -8,9 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 /**
  * @Author: SH
  * @Date: 2023/12/26 23:30
+ * 复制的第二个拦截器类
  */
 
-public class MyInterceptors implements HandlerInterceptor {
+public class MyInterceptors1 implements HandlerInterceptor {
     
     //执行handler之前调用拦截的方法
     //设置编码格式,登录保护,权限处理等操作
@@ -23,8 +24,8 @@ public class MyInterceptors implements HandlerInterceptor {
      */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        System.out.println("拦截器1 -- handler执行前");
-//        System.out.println("request = " + request + ", response = " + response + ", handler = " + handler);
+        System.out.println("拦截器2 -- handler执行前");
+        System.out.println("MyInterceptors1.preHandle");
         //拦截业务
         return true;
     }
@@ -40,8 +41,8 @@ public class MyInterceptors implements HandlerInterceptor {
      */
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-        System.out.println("拦截器1-- handler执行后");
-        System.out.println("MyInterceptors.postHandle");
+        System.out.println("拦截器2-- handler执行后");
+        System.out.println("MyInterceptors1.postHandle");
     }
     
     /**
@@ -54,7 +55,7 @@ public class MyInterceptors implements HandlerInterceptor {
      */
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        System.out.println("拦截器1--整体执行完后");
-        System.out.println("MyInterceptors.afterCompletion");
+        System.out.println("拦截器2--整体执行完后");
+        System.out.println("MyInterceptors1.afterCompletion");
     }
 }
